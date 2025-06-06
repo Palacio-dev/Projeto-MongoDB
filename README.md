@@ -61,7 +61,7 @@ O script de criação  foi desenvolvido em Python, utilizando os mesmos dados do
 
 ### Modelo Físico
 
-[Modelo Físico](https://github.com/Palacio-dev/Energia-renovavel-e-mudanca-climatica/tree/main/Modelos/Modelo_Fisico)
+[Modelo Físico](https://github.com/Palacio-dev/Projeto-MongoDB/tree/main/Modelos/Modelo_Fisico)
 
 ▶️ Script de População
 
