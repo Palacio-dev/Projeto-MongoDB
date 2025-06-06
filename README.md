@@ -51,8 +51,9 @@ A escolha do MongoDB como banco de dados NoSQL para este projeto se deu por cont
 
 Neste projeto, adotamos o modelo lógico orientado a documentos, conforme o padrão do MongoDB. Os dados foram reorganizados para refletir melhor as relações e hierarquias de forma aninhada.
 
-    Inserir aqui um diagrama ou descrição textual do modelo lógico utilizado.
-    (Ex: coleção "alunos", "disciplinas", "matrículas", e estrutura de cada documento.)
+### Modelo Lógico
+
+![Modelo Lógico](Modelos/Modelo_Logico/Modelo_Logico.png)
 
 🧱 Modelo Físico (Criação e População)
 
