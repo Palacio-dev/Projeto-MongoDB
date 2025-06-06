@@ -57,10 +57,11 @@ Neste projeto, adotamos o modelo lógico orientado a documentos, conforme o padr
 
 🧱 Modelo Físico (Criação e População)
 
-O script de criação e população foi desenvolvido em JavaScript (Mongo Shell), utilizando os mesmos dados do projeto anterior em banco relacional.
-▶️ Script de Criação
+O script de criação  foi desenvolvido em Python, utilizando os mesmos dados do projeto anterior em banco relacional.
 
-    Inserir aqui os comandos de criação das coleções e índices.
+### Modelo Físico
+
+[Modelo Físico](https://github.com/Palacio-dev/Energia-renovavel-e-mudanca-climatica/tree/main/Modelos/Modelo_Fisico)
 
 ▶️ Script de População
 
