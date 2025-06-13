@@ -57,7 +57,29 @@ O script de criação  foi desenvolvido em Python, utilizando os mesmos dados do
 
 [População](https://github.com/Palacio-dev/Projeto-MongoDB/tree/main/Scripts)
 
-    
+## 📁 Estrutura do Repositório
+``` bash
+
+├── Consultas/
+├── Datasets/
+│   ├── energia.csv
+│   ├── Processamento/
+│   │   └── gera_tipos_energia.py
+│   ├── temperature_change.csv
+│   └── tipos_energia.csv
+├── estrutura.txt
+├── Modelos/
+│   ├── Modelo_Fisico/
+│   │   └── db_creation.py
+│   └── Modelo_Logico/
+│       └── Modelo_Logico.png
+├── README.md
+├── Resultado_Consultas/
+└── Scripts/
+    └── load_data.py
+```
+
+
 
 🔍 Consultas Avançadas
 
