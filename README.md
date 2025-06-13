@@ -55,7 +55,7 @@ O script de criação  foi desenvolvido em Python, utilizando os mesmos dados do
 
 ▶️ Script de População
 
-[Scipt](https://github.com/Palacio-dev/Projeto-MongoDB/tree/main/Scripts)
+
     
 
 🔍 Consultas Avançadas
