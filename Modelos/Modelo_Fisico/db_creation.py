@@ -55,29 +55,54 @@ base_schema = {
 }
 
 # Schema específico para países (adiciona campo 'grupos')
-paises_schema = base_schema.copy()
-paises_schema["$jsonSchema"]["required"].append("grupos")
-paises_schema["$jsonSchema"]["properties"]["grupos"] = {
-    "bsonType": "array",
-    "items": {"bsonType": "string"}  # códigos dos grupos aos quais o país pertence
+paises_schema = {
+    "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["nome", "codigo", "anos", "grupos"],
+        "properties": {
+            "nome": {"bsonType": "string"},
+            "codigo": {"bsonType": "string"},
+            "grupos": {
+                "bsonType": "array",
+                "items": {"bsonType": "objectId"}
+            },
+            "anos": base_schema["$jsonSchema"]["properties"]["anos"]
+        }
+    }
 }
 
 # Schema específico para grupos (adiciona campo 'paises')
-grupos_schema = base_schema.copy()
-grupos_schema["$jsonSchema"]["required"].append("paises")
-grupos_schema["$jsonSchema"]["properties"]["paises"] = {
-    "bsonType": "array",
-    "items": {"bsonType": "string"}  # códigos dos países que pertencem ao grupo
+grupos_schema = {
+    "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["nome", "codigo", "anos", "paises"],
+        "properties": {
+            "nome": {"bsonType": "string"},
+            "codigo": {"bsonType": "string"},
+            "paises": {
+                "bsonType": "array",
+                "items": {"bsonType": "objectId"}
+            },
+            "anos": base_schema["$jsonSchema"]["properties"]["anos"]
+        }
+    }
 }
 
 # Função para criar as coleções com tratamento de erro
 def criar_colecoes():
+    # Remove coleções existentes se existirem
+    try:
+        db.drop_collection("paises")
+        db.drop_collection("grupos")
+        print("Coleções existentes removidas.")
+    except:
+        pass
+    
+    # Cria as novas coleções
     db.create_collection("paises", validator=paises_schema)
     db.create_collection("grupos", validator=grupos_schema)
+    print("Coleções criadas com sucesso!")
 
 if __name__ == "__main__":
     # Criar as coleções
     criar_colecoes()
-    
-    
-    
