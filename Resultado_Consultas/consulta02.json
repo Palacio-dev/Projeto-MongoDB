@@ -1,0 +1,62 @@
+[
+    {
+      "unidade": "°C",
+      "pais": "Belarus",
+      "codigo": "BLR",
+      "Mudanca_total_temp": 0.35778
+    },
+    {
+      "unidade": "°C",
+      "pais": "Lithuania",
+      "codigo": "LTU",
+      "Mudanca_total_temp": 0.34956000000000004
+    },
+    {
+      "unidade": "°C",
+      "pais": "Poland",
+      "codigo": "POL",
+      "Mudanca_total_temp": 0.33608
+    },
+    {
+      "unidade": "°C",
+      "pais": "Latvia",
+      "codigo": "LVA",
+      "Mudanca_total_temp": 0.33061999999999997
+    },
+    {
+      "unidade": "°C",
+      "pais": "Ukraine",
+      "codigo": "UKR",
+      "Mudanca_total_temp": 0.32427
+    },
+    {
+      "unidade": "°C",
+      "pais": "Slovakia",
+      "codigo": "SVK",
+      "Mudanca_total_temp": 0.3151
+    },
+    {
+      "unidade": "°C",
+      "pais": "Czechia",
+      "codigo": "CZE",
+      "Mudanca_total_temp": 0.31476
+    },
+    {
+      "unidade": "°C",
+      "pais": "Hungary",
+      "codigo": "HUN",
+      "Mudanca_total_temp": 0.31095
+    },
+    {
+      "unidade": "°C",
+      "pais": "Estonia",
+      "codigo": "EST",
+      "Mudanca_total_temp": 0.30354
+    },
+    {
+      "unidade": "°C",
+      "pais": "Slovenia",
+      "codigo": "SVN",
+      "Mudanca_total_temp": 0.30142
+    }
+  ]

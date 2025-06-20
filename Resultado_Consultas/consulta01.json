@@ -1,0 +1,127 @@
+[
+    {
+      "energia_renovavel_total": 2014.57,
+      "tipos_renovaveis": [
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Bioenergy"
+      ],
+      "unidade": "TWh",
+      "pais": "China",
+      "codigo": "CHN"
+    },
+    {
+      "energia_renovavel_total": 760.76,
+      "tipos_renovaveis": [
+        "Solar",
+        "Bioenergy",
+        "Hydro",
+        "Other Renewables",
+        "Wind"
+      ],
+      "unidade": "TWh",
+      "pais": "United States of America",
+      "codigo": "USA"
+    },
+    {
+      "energia_renovavel_total": 515.44,
+      "tipos_renovaveis": [
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Bioenergy"
+      ],
+      "unidade": "TWh",
+      "pais": "Brazil",
+      "codigo": "BRA"
+    },
+    {
+      "energia_renovavel_total": 429.03999999999996,
+      "tipos_renovaveis": [
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Bioenergy"
+      ],
+      "unidade": "TWh",
+      "pais": "Canada",
+      "codigo": "CAN"
+    },
+    {
+      "energia_renovavel_total": 303.15999999999997,
+      "tipos_renovaveis": [
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Bioenergy"
+      ],
+      "unidade": "TWh",
+      "pais": "India",
+      "codigo": "IND"
+    },
+    {
+      "energia_renovavel_total": 241.17000000000002,
+      "tipos_renovaveis": [
+        "Other Renewables",
+        "Wind",
+        "Bioenergy",
+        "Hydro",
+        "Solar"
+      ],
+      "unidade": "TWh",
+      "pais": "Germany",
+      "codigo": "DEU"
+    },
+    {
+      "energia_renovavel_total": 176.41,
+      "tipos_renovaveis": [
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Bioenergy"
+      ],
+      "unidade": "TWh",
+      "pais": "Japan",
+      "codigo": "JPN"
+    },
+    {
+      "energia_renovavel_total": 131.47,
+      "tipos_renovaveis": [
+        "Other Renewables",
+        "Wind",
+        "Bioenergy",
+        "Hydro",
+        "Solar"
+      ],
+      "unidade": "TWh",
+      "pais": "Turkey",
+      "codigo": "TUR"
+    },
+    {
+      "energia_renovavel_total": 131.07,
+      "tipos_renovaveis": [
+        "Other Renewables",
+        "Wind",
+        "Bioenergy",
+        "Hydro",
+        "Solar"
+      ],
+      "unidade": "TWh",
+      "pais": "Norway",
+      "codigo": "NOR"
+    },
+    {
+      "energia_renovavel_total": 119.74000000000001,
+      "tipos_renovaveis": [
+        "Other Renewables",
+        "Wind",
+        "Bioenergy",
+        "Hydro",
+        "Solar"
+      ],
+      "unidade": "TWh",
+      "pais": "United Kingdom",
+      "codigo": "GBR"
+    }
+  ]
