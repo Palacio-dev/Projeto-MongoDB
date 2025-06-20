@@ -80,18 +80,24 @@ O script de criação  foi desenvolvido em Python, utilizando os mesmos dados do
 ```
 
 
+✅ Consulta 01 - Top 10 Países em Geração de Energia Renovável (2019)
 
-🔍 Consultas Avançadas
+Detalhes:
+Para cada país listado, a consulta exibe: 
 
-Foram desenvolvidas cinco consultas não triviais, explorando os recursos do MongoDB como agregações, operadores relacionais e filtros complexos.
-Exemplo de Consultas
+Nome do país e seu código  
+Total de energia renovável gerada  
+Tipos de energia renovável utilizados (ex: Solar, Eólica)  
+Unidade de medida da geração (ex: GWh)  
 
-   
 
-📎 Instruções de Execução
-    Certifique-se de ter o MongoDB instalado e em execução localmente ou em um servidor.
-    Execute os scripts de criação e população utilizando o Mongo Shell ou outro cliente como MongoDB Compass ou mongosh.
-    Teste as consultas descritas acima para verificar o funcionamento do banco.
+✅ Consulta 02 - Top 10 Países com Maior Mudança de Temperatura (2019)  
+Para cada país listado, a consulta exibe:  
+
+Nome do país e seu código  
+Mudança total de temperatura em 2019  
+Unidade de medida da temperatura (ex: °C)
+
 
 
 
