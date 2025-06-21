@@ -98,6 +98,21 @@ Nome do país e seu código
 Mudança total de temperatura em 2019  
 Unidade de medida da temperatura (ex: °C)
 
+✅ Consulta 03 - Top 5 Grupos com Maior Diversidade de Tipos de Energia Gerada (2019)
+
+Para cada grupo listado, a consulta exibe:
+
+Nome do grupo e seu código
+Quantidade de tipos diferentes de energia gerados
+Lista dos tipos de energia gerados
+
+✅ Consulta 04 - Top 5 Grupos com Maior Mudança Média de Temperatura Anual (2019)
+
+Para cada grupo listado, a consulta exibe:
+
+Nome do grupo e seu código
+Mudança média de temperatura anual em 2019 (média das mudanças mensais)
+Unidade da temperatura (ex: °C)
 
 
 
