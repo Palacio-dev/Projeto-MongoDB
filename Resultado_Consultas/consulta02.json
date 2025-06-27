@@ -1,62 +1,502 @@
 [
-    {
-      "unidade": "°C",
-      "pais": "Belarus",
-      "codigo": "BLR",
-      "Mudanca_total_temp": 0.35778
-    },
-    {
-      "unidade": "°C",
-      "pais": "Lithuania",
-      "codigo": "LTU",
-      "Mudanca_total_temp": 0.34956000000000004
-    },
-    {
-      "unidade": "°C",
-      "pais": "Poland",
-      "codigo": "POL",
-      "Mudanca_total_temp": 0.33608
-    },
-    {
-      "unidade": "°C",
-      "pais": "Latvia",
-      "codigo": "LVA",
-      "Mudanca_total_temp": 0.33061999999999997
-    },
-    {
-      "unidade": "°C",
-      "pais": "Ukraine",
-      "codigo": "UKR",
-      "Mudanca_total_temp": 0.32427
-    },
-    {
-      "unidade": "°C",
-      "pais": "Slovakia",
-      "codigo": "SVK",
-      "Mudanca_total_temp": 0.3151
-    },
-    {
-      "unidade": "°C",
-      "pais": "Czechia",
-      "codigo": "CZE",
-      "Mudanca_total_temp": 0.31476
-    },
-    {
-      "unidade": "°C",
-      "pais": "Hungary",
-      "codigo": "HUN",
-      "Mudanca_total_temp": 0.31095
-    },
-    {
-      "unidade": "°C",
-      "pais": "Estonia",
-      "codigo": "EST",
-      "Mudanca_total_temp": 0.30354
-    },
-    {
-      "unidade": "°C",
-      "pais": "Slovenia",
-      "codigo": "SVN",
-      "Mudanca_total_temp": 0.30142
-    }
-  ]
+  {
+    "_id": "ASEAN",
+    "paises": [
+      {
+        "nome": "Myanmar",
+        "porcentagem": 56.26,
+        "ano": 2019
+      },
+      {
+        "nome": "Viet Nam",
+        "porcentagem": 30.4,
+        "ano": 2019
+      },
+      {
+        "nome": "Cambodia",
+        "porcentagem": 49.34,
+        "ano": 2019
+      },
+      {
+        "nome": "Thailand",
+        "porcentagem": 14.86,
+        "ano": 2019
+      },
+      {
+        "nome": "Indonesia",
+        "porcentagem": 16.26,
+        "ano": 2019
+      },
+      {
+        "nome": "Brunei Darussalam",
+        "porcentagem": 0,
+        "ano": 2019
+      },
+      {
+        "nome": "Malaysia",
+        "porcentagem": 16.13,
+        "ano": 2019
+      }
+    ]
+  },
+  {
+    "_id": "EU",
+    "paises": [
+      {
+        "nome": "Malta",
+        "porcentagem": 10.14,
+        "ano": 2019
+      },
+      {
+        "nome": "Netherlands",
+        "porcentagem": 18.99,
+        "ano": 2019
+      },
+      {
+        "nome": "Finland",
+        "porcentagem": 46.47,
+        "ano": 2019
+      },
+      {
+        "nome": "Cyprus",
+        "porcentagem": 10.1,
+        "ano": 2019
+      },
+      {
+        "nome": "Slovenia",
+        "porcentagem": 31.72,
+        "ano": 2019
+      },
+      {
+        "nome": "Bulgaria",
+        "porcentagem": 17.13,
+        "ano": 2019
+      },
+      {
+        "nome": "Austria",
+        "porcentagem": 77.3,
+        "ano": 2019
+      },
+      {
+        "nome": "Croatia",
+        "porcentagem": 66.01,
+        "ano": 2019
+      },
+      {
+        "nome": "Denmark",
+        "porcentagem": 78.55,
+        "ano": 2019
+      },
+      {
+        "nome": "Sweden",
+        "porcentagem": 58.75,
+        "ano": 2019
+      },
+      {
+        "nome": "Hungary",
+        "porcentagem": 13.71,
+        "ano": 2019
+      },
+      {
+        "nome": "Poland",
+        "porcentagem": 15.6,
+        "ano": 2019
+      },
+      {
+        "nome": "Germany",
+        "porcentagem": 40.19,
+        "ano": 2019
+      },
+      {
+        "nome": "Lithuania",
+        "porcentagem": 73.95,
+        "ano": 2019
+      },
+      {
+        "nome": "Portugal",
+        "porcentagem": 53.12,
+        "ano": 2019
+      },
+      {
+        "nome": "Greece",
+        "porcentagem": 33.58,
+        "ano": 2019
+      },
+      {
+        "nome": "Czechia",
+        "porcentagem": 11.74,
+        "ano": 2019
+      },
+      {
+        "nome": "Italy",
+        "porcentagem": 39.94,
+        "ano": 2019
+      },
+      {
+        "nome": "Luxembourg",
+        "porcentagem": 74.77,
+        "ano": 2019
+      },
+      {
+        "nome": "Slovakia",
+        "porcentagem": 23.57,
+        "ano": 2019
+      },
+      {
+        "nome": "France",
+        "porcentagem": 19.99,
+        "ano": 2019
+      },
+      {
+        "nome": "Romania",
+        "porcentagem": 41.92,
+        "ano": 2019
+      },
+      {
+        "nome": "Latvia",
+        "porcentagem": 49.53,
+        "ano": 2019
+      },
+      {
+        "nome": "Belgium",
+        "porcentagem": 20.98,
+        "ano": 2019
+      },
+      {
+        "nome": "Spain",
+        "porcentagem": 37.33,
+        "ano": 2019
+      },
+      {
+        "nome": "Ireland",
+        "porcentagem": 38.39,
+        "ano": 2019
+      },
+      {
+        "nome": "Estonia",
+        "porcentagem": 28.12,
+        "ano": 2019
+      }
+    ]
+  },
+  {
+    "_id": "G20",
+    "paises": [
+      {
+        "nome": "Canada",
+        "porcentagem": 65.4,
+        "ano": 2019
+      },
+      {
+        "nome": "France",
+        "porcentagem": 19.99,
+        "ano": 2019
+      },
+      {
+        "nome": "United States of America",
+        "porcentagem": 18.29,
+        "ano": 2019
+      },
+      {
+        "nome": "South Africa",
+        "porcentagem": 5.03,
+        "ano": 2019
+      },
+      {
+        "nome": "China",
+        "porcentagem": 26.85,
+        "ano": 2019
+      },
+      {
+        "nome": "Italy",
+        "porcentagem": 39.94,
+        "ano": 2019
+      },
+      {
+        "nome": "Mexico",
+        "porcentagem": 16.69,
+        "ano": 2019
+      },
+      {
+        "nome": "Indonesia",
+        "porcentagem": 16.26,
+        "ano": 2019
+      },
+      {
+        "nome": "Japan",
+        "porcentagem": 16.84,
+        "ano": 2019
+      },
+      {
+        "nome": "Brazil",
+        "porcentagem": 81.39,
+        "ano": 2019
+      },
+      {
+        "nome": "United Kingdom",
+        "porcentagem": 36.61,
+        "ano": 2019
+      },
+      {
+        "nome": "Argentina",
+        "porcentagem": 24.93,
+        "ano": 2019
+      },
+      {
+        "nome": "Turkey",
+        "porcentagem": 43.8,
+        "ano": 2019
+      },
+      {
+        "nome": "Australia",
+        "porcentagem": 20.78,
+        "ano": 2019
+      },
+      {
+        "nome": "Saudi Arabia",
+        "porcentagem": 0.06,
+        "ano": 2019
+      },
+      {
+        "nome": "India",
+        "porcentagem": 18.69,
+        "ano": 2019
+      },
+      {
+        "nome": "Germany",
+        "porcentagem": 40.19,
+        "ano": 2019
+      }
+    ]
+  },
+  {
+    "_id": "G7",
+    "paises": [
+      {
+        "nome": "France",
+        "porcentagem": 19.99,
+        "ano": 2019
+      },
+      {
+        "nome": "Italy",
+        "porcentagem": 39.94,
+        "ano": 2019
+      },
+      {
+        "nome": "Germany",
+        "porcentagem": 40.19,
+        "ano": 2019
+      },
+      {
+        "nome": "United Kingdom",
+        "porcentagem": 36.61,
+        "ano": 2019
+      },
+      {
+        "nome": "Canada",
+        "porcentagem": 65.4,
+        "ano": 2019
+      },
+      {
+        "nome": "Japan",
+        "porcentagem": 16.84,
+        "ano": 2019
+      },
+      {
+        "nome": "United States of America",
+        "porcentagem": 18.29,
+        "ano": 2019
+      }
+    ]
+  },
+  {
+    "_id": "OECD",
+    "paises": [
+      {
+        "nome": "United States of America",
+        "porcentagem": 18.29,
+        "ano": 2019
+      },
+      {
+        "nome": "New Zealand",
+        "porcentagem": 82.42,
+        "ano": 2019
+      },
+      {
+        "nome": "Denmark",
+        "porcentagem": 78.55,
+        "ano": 2019
+      },
+      {
+        "nome": "Australia",
+        "porcentagem": 20.78,
+        "ano": 2019
+      },
+      {
+        "nome": "Ireland",
+        "porcentagem": 38.39,
+        "ano": 2019
+      },
+      {
+        "nome": "Chile",
+        "porcentagem": 46.21,
+        "ano": 2019
+      },
+      {
+        "nome": "Lithuania",
+        "porcentagem": 73.95,
+        "ano": 2019
+      },
+      {
+        "nome": "Mexico",
+        "porcentagem": 16.69,
+        "ano": 2019
+      },
+      {
+        "nome": "Austria",
+        "porcentagem": 77.3,
+        "ano": 2019
+      },
+      {
+        "nome": "Slovakia",
+        "porcentagem": 23.57,
+        "ano": 2019
+      },
+      {
+        "nome": "Estonia",
+        "porcentagem": 28.12,
+        "ano": 2019
+      },
+      {
+        "nome": "Latvia",
+        "porcentagem": 49.53,
+        "ano": 2019
+      },
+      {
+        "nome": "Colombia",
+        "porcentagem": 69.48,
+        "ano": 2019
+      },
+      {
+        "nome": "Greece",
+        "porcentagem": 33.58,
+        "ano": 2019
+      },
+      {
+        "nome": "Turkey",
+        "porcentagem": 43.8,
+        "ano": 2019
+      },
+      {
+        "nome": "Finland",
+        "porcentagem": 46.47,
+        "ano": 2019
+      },
+      {
+        "nome": "Luxembourg",
+        "porcentagem": 74.77,
+        "ano": 2019
+      },
+      {
+        "nome": "Costa Rica",
+        "porcentagem": 99.12,
+        "ano": 2019
+      },
+      {
+        "nome": "Italy",
+        "porcentagem": 39.94,
+        "ano": 2019
+      },
+      {
+        "nome": "Switzerland",
+        "porcentagem": 59.87,
+        "ano": 2019
+      },
+      {
+        "nome": "Israel",
+        "porcentagem": 4.04,
+        "ano": 2019
+      },
+      {
+        "nome": "Spain",
+        "porcentagem": 37.33,
+        "ano": 2019
+      },
+      {
+        "nome": "Sweden",
+        "porcentagem": 58.75,
+        "ano": 2019
+      },
+      {
+        "nome": "France",
+        "porcentagem": 19.99,
+        "ano": 2019
+      },
+      {
+        "nome": "Iceland",
+        "porcentagem": 100,
+        "ano": 2019
+      },
+      {
+        "nome": "Slovenia",
+        "porcentagem": 31.72,
+        "ano": 2019
+      },
+      {
+        "nome": "Norway",
+        "porcentagem": 97.94,
+        "ano": 2019
+      },
+      {
+        "nome": "Canada",
+        "porcentagem": 65.4,
+        "ano": 2019
+      },
+      {
+        "nome": "Japan",
+        "porcentagem": 16.84,
+        "ano": 2019
+      },
+      {
+        "nome": "Czechia",
+        "porcentagem": 11.74,
+        "ano": 2019
+      },
+      {
+        "nome": "Belgium",
+        "porcentagem": 20.98,
+        "ano": 2019
+      },
+      {
+        "nome": "Hungary",
+        "porcentagem": 13.71,
+        "ano": 2019
+      },
+      {
+        "nome": "Netherlands",
+        "porcentagem": 18.99,
+        "ano": 2019
+      },
+      {
+        "nome": "Portugal",
+        "porcentagem": 53.12,
+        "ano": 2019
+      },
+      {
+        "nome": "Germany",
+        "porcentagem": 40.19,
+        "ano": 2019
+      },
+      {
+        "nome": "Poland",
+        "porcentagem": 15.6,
+        "ano": 2019
+      },
+      {
+        "nome": "United Kingdom",
+        "porcentagem": 36.61,
+        "ano": 2019
+      }
+    ]
+  }
+]
