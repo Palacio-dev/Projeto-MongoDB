@@ -91,12 +91,15 @@ Tipos de energia renovável utilizados (ex: Solar, Eólica)
 Unidade de medida da geração (ex: GWh)  
 
 
-✅ Consulta 02 - Top 10 Países com Maior Mudança de Temperatura (2019)  
-Para cada país listado, a consulta exibe:  
+✅ Consulta 02 - Porcentagem de Energia Renovável por País em Cada Grupo Econômico (Ano Mais Recente)
 
-Nome do país e seu código  
-Mudança total de temperatura em 2019  
-Unidade de medida da temperatura (ex: °C)
+Para cada país pertencente a um grupo econômico, a consulta exibe:
+
+Nome do grupo  
+Um array com os países pertencentes ao grupo com informações sobre 2019  
+Para cada país:  
+Nome do país  
+Porcentagem de energia renovável em relação à geração total em 2019  
 
 ✅ Consulta 03 - Top 5 Grupos com Maior Diversidade de Tipos de Energia Gerada (2019)
 
