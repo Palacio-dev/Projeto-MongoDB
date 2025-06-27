@@ -45,7 +45,7 @@ Neste projeto, adotamos o modelo lógico orientado a documentos, conforme o padr
 
 ![Modelo Lógico](Modelos/Modelo_Logico/Modelo_Logico.png)
 
-🧱 Modelo Físico (Criação e População)
+🧱 Modelo Físico (Criação)
 
 O script de criação  foi desenvolvido em Python, utilizando os mesmos dados do projeto anterior em banco relacional.
 
