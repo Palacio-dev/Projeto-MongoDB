@@ -1,0 +1,82 @@
+[
+    {
+      "tipos_energia": [
+        "Nuclear",
+        "Hydro",
+        "Other Fossil",
+        "Solar",
+        "Other Renewables",
+        "Bioenergy",
+        "Gas",
+        "Wind",
+        "Coal"
+      ],
+      "grupo": "Europe",
+      "codigo": "N/A",
+      "quantidade_tipos": 9
+    },
+    {
+      "tipos_energia": [
+        "Nuclear",
+        "Hydro",
+        "Other Fossil",
+        "Solar",
+        "Other Renewables",
+        "Bioenergy",
+        "Gas",
+        "Wind",
+        "Coal"
+      ],
+      "grupo": "Oceania",
+      "codigo": "N/A",
+      "quantidade_tipos": 9
+    },
+    {
+      "tipos_energia": [
+        "Nuclear",
+        "Hydro",
+        "Other Fossil",
+        "Solar",
+        "Other Renewables",
+        "Bioenergy",
+        "Gas",
+        "Wind",
+        "Coal"
+      ],
+      "grupo": "World",
+      "codigo": "N/A",
+      "quantidade_tipos": 9
+    },
+    {
+      "tipos_energia": [
+        "Nuclear",
+        "Hydro",
+        "Other Fossil",
+        "Solar",
+        "Other Renewables",
+        "Bioenergy",
+        "Gas",
+        "Wind",
+        "Coal"
+      ],
+      "grupo": "Africa",
+      "codigo": "N/A",
+      "quantidade_tipos": 9
+    },
+    {
+      "tipos_energia": [
+        "Nuclear",
+        "Hydro",
+        "Other Fossil",
+        "Solar",
+        "Other Renewables",
+        "Bioenergy",
+        "Gas",
+        "Wind",
+        "Coal"
+      ],
+      "grupo": "Asia",
+      "codigo": "N/A",
+      "quantidade_tipos": 9
+    }
+  ]

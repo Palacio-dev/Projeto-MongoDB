@@ -1,0 +1,182 @@
+[
+    {
+      "total_geracao": 993813.12,
+      "energia_renovavel": 210216,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.1197000000000001,
+      "unidade_temp": "°C",
+      "pais": "China",
+      "porcentagem": 21.152467779857847
+    },
+    {
+      "total_geracao": 965346.36,
+      "energia_renovavel": 112952.4,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.9801458333333333,
+      "unidade_temp": "°C",
+      "pais": "United States of America",
+      "porcentagem": 11.70071227077502
+    },
+    {
+      "total_geracao": 265362.24,
+      "energia_renovavel": 29510.28,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.7358125,
+      "unidade_temp": "°C",
+      "pais": "Japan",
+      "porcentagem": 11.120753276728443
+    },
+    {
+      "total_geracao": 239100.24,
+      "energia_renovavel": 37771.2,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.5720583333333333,
+      "unidade_temp": "°C",
+      "pais": "India",
+      "porcentagem": 15.797223791996192
+    },
+    {
+      "total_geracao": 151165.44,
+      "energia_renovavel": 93645.95999999999,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.3048916666666666,
+      "unidade_temp": "°C",
+      "pais": "Canada",
+      "porcentagem": 61.9493185744043
+    },
+    {
+      "total_geracao": 147517.8,
+      "energia_renovavel": 28589.64,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.4951708333333333,
+      "unidade_temp": "°C",
+      "pais": "Germany",
+      "porcentagem": 19.380467984202586
+    },
+    {
+      "total_geracao": 134611.44,
+      "energia_renovavel": 18991.32,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.3721875000000001,
+      "unidade_temp": "°C",
+      "pais": "France",
+      "porcentagem": 14.108251126353005
+    },
+    {
+      "total_geracao": 116612.28,
+      "energia_renovavel": 96641.64,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.1303625,
+      "unidade_temp": "°C",
+      "pais": "Brazil",
+      "porcentagem": 82.87432507108171
+    },
+    {
+      "total_geracao": 88640.52,
+      "energia_renovavel": 10473.24,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.9505541666666667,
+      "unidade_temp": "°C",
+      "pais": "United Kingdom",
+      "porcentagem": 11.81540902512756
+    },
+    {
+      "total_geracao": 69483.36,
+      "energia_renovavel": 18771.84,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.318,
+      "unidade_temp": "°C",
+      "pais": "Italy",
+      "porcentagem": 27.016310092085355
+    },
+    {
+      "total_geracao": 66199.08,
+      "energia_renovavel": 18002.76,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.2219041666666668,
+      "unidade_temp": "°C",
+      "pais": "Spain",
+      "porcentagem": 27.19487944545453
+    },
+    {
+      "total_geracao": 66151.32,
+      "energia_renovavel": 10157.04,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.8394875,
+      "unidade_temp": "°C",
+      "pais": "Mexico",
+      "porcentagem": 15.354251434438495
+    },
+    {
+      "total_geracao": 60744.72,
+      "energia_renovavel": 8.16,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.2538541666666667,
+      "unidade_temp": "°C",
+      "pais": "Saudi Arabia",
+      "porcentagem": 0.01343326629870053
+    },
+    {
+      "total_geracao": 59388.48,
+      "energia_renovavel": 1043.28,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.8789250000000001,
+      "unidade_temp": "°C",
+      "pais": "South Africa",
+      "porcentagem": 1.756704330536831
+    },
+    {
+      "total_geracao": 58581.6,
+      "energia_renovavel": 6780.36,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.8297618203309693,
+      "unidade_temp": "°C",
+      "pais": "Australia",
+      "porcentagem": 11.574214429104018
+    },
+    {
+      "total_geracao": 53553.36,
+      "energia_renovavel": 3117.84,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.4161185682326622,
+      "unidade_temp": "°C",
+      "pais": "Iran (Islamic Republic of)",
+      "porcentagem": 5.821931621097163
+    },
+    {
+      "total_geracao": 50314.8,
+      "energia_renovavel": 13858.8,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.0659541666666668,
+      "unidade_temp": "°C",
+      "pais": "Turkey",
+      "porcentagem": 27.544181831190816
+    },
+    {
+      "total_geracao": 44213.76,
+      "energia_renovavel": 7244.4,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 0.6285916666666667,
+      "unidade_temp": "°C",
+      "pais": "Indonesia",
+      "porcentagem": 16.38494441549418
+    },
+    {
+      "total_geracao": 42993.24,
+      "energia_renovavel": 2723.76,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.4948375,
+      "unidade_temp": "°C",
+      "pais": "Ukraine",
+      "porcentagem": 6.335321552876685
+    },
+    {
+      "total_geracao": 37775.04,
+      "energia_renovavel": 2840.52,
+      "unidade_geracao": "TWh",
+      "media_mudanca_temp": 1.4664833333333331,
+      "unidade_temp": "°C",
+      "pais": "Poland",
+      "porcentagem": 7.519568476962565
+    }
+  ]

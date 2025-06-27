@@ -1,0 +1,32 @@
+[
+    {
+      "media_mudanca_temp": 2.2840000000000003,
+      "unidade_temp": "°C",
+      "grupo": "Europe",
+      "codigo": "N/A"
+    },
+    {
+      "media_mudanca_temp": 1.5265833333333332,
+      "unidade_temp": "°C",
+      "grupo": "World",
+      "codigo": "N/A"
+    },
+    {
+      "media_mudanca_temp": 1.4483333333333333,
+      "unidade_temp": "°C",
+      "grupo": "Oceania",
+      "codigo": "N/A"
+    },
+    {
+      "media_mudanca_temp": 1.4334166666666668,
+      "unidade_temp": "°C",
+      "grupo": "Africa",
+      "codigo": "N/A"
+    },
+    {
+      "media_mudanca_temp": 1.4280833333333334,
+      "unidade_temp": "°C",
+      "grupo": "Asia",
+      "codigo": "N/A"
+    }
+  ]
