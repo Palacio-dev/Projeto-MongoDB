@@ -16,7 +16,7 @@ def load_tipos_energia():
     df = pd.read_csv('../Datasets/tipos_energia.csv', usecols=['Tipo', 'Renovavel'])
     tipos_energia = {}
     for linha in df.itertuples():
-        tipos_energia[linha[1]] = bool(linha[2])  # Tipo -> Renovável (bool)
+        tipos_energia[linha[1]] = bool(linha[2])  
     return tipos_energia
 
 def load_mudanca_temperatura():
@@ -65,11 +65,11 @@ def load_mudanca_temperatura():
     for _, row in df_pivot.iterrows():
         mes_nome = row["mes"]
         if mes_nome not in month_name_to_num:
-            continue  # Pula trimestres ou categorias desconhecidas
+            continue  
             
         area_nome = row['area']
         mes = month_name_to_num[mes_nome]
-        ano = int(row["ano"][1:])  # Remove o 'Y' do início
+        ano = int(row["ano"][1:])  
         
         if area_nome not in temp_data:
             temp_data[area_nome] = {}
@@ -79,7 +79,7 @@ def load_mudanca_temperatura():
         temp_data[area_nome][ano][mes] = {
             'mudanca_temp': float(row['mud_value']) if pd.notna(row['mud_value']) else 0.0,
             'desvio_padrao': float(row['desvio_padrao']) if pd.notna(row['desvio_padrao']) else 0.0,
-            'unidade': '°C'  # Assumindo que a unidade é Celsius
+            'unidade': '°C'  
         }
     
     return temp_data
@@ -129,7 +129,7 @@ def load_geracao_energia():
         if categoria == "Electricity generation":
             energia_data[area][ano][var]['valor_geracao'] = val
             energia_data[area][ano][var]['unidade_geracao'] = unit
-        else:  # Power sector emissions
+        else:  
             energia_data[area][ano][var]['valor_emissao'] = val
             energia_data[area][ano][var]['unidade_emissao'] = unit
     

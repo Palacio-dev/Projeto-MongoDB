@@ -1,0 +1,25 @@
+[
+  { $unwind: "$anos" },
+  { $match: { "anos.ano": 2019 } },
+  { $unwind: "$anos.tipos_energia" },
+  { $match: { "anos.tipos_energia.renovavel": true } },
+  { $group: {
+      _id: {
+          pais: "$nome",
+          codigo: "$codigo"
+      },
+      energia_renovavel_total: { $sum: "$anos.tipos_energia.valor_geracao" },
+      tipos_renovaveis: { $addToSet: "$anos.tipos_energia.tipo" },
+      unidade: { $first: "$anos.tipos_energia.unidade_geracao" }
+  }},
+  { $sort: { energia_renovavel_total: -1 } },
+  { $limit: 10 },
+  { $project: {
+      pais: "$_id.pais",
+      codigo: "$_id.codigo",
+      energia_renovavel_total: 1,
+      tipos_renovaveis: 1,
+      unidade: 1,
+      _id: 0
+  }}
+]

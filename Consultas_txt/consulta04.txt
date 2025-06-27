@@ -1,0 +1,22 @@
+[
+  { $unwind: "$anos" },
+  { $match: { "anos.ano": 2019 } },
+  { $unwind: "$anos.meses" },
+  { $group: {
+      _id: {
+        grupo: "$nome",
+        codigo: "$codigo"
+      },
+      media_mudanca_temp: { $avg: "$anos.meses.mudanca_temp" },
+      unidade_temp: { $first: "$anos.meses.unidade" }
+  }},
+  { $sort: { media_mudanca_temp: -1 } },
+  { $limit: 5 },
+  { $project: {
+      _id: 0,
+      grupo: "$_id.grupo",
+      codigo: "$_id.codigo",
+      media_mudanca_temp: 1,
+      unidade_temp: 1
+  }}
+]
