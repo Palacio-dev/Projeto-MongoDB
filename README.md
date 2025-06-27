@@ -115,6 +115,18 @@ Mudança média de temperatura anual em 2019 (média das mudanças mensais)
 Unidade da temperatura (ex: °C)
 
 
+✅ Consulta 05 - Participação de Energia Renovável na Geração Total
+
+Para cada país listado, a consulta exibe:
+
+Nome do país  
+Total de energia gerada (considerando todos os tipos de energia)  
+Total de energia renovável gerada  
+Porcentagem de energia renovável sobre o total  
+Média da mudança de temperatura no período analisado  
+Unidade de medida da geração (ex.: GWh)  
+Unidade da temperatura (ex.: °C)  
+
 
 📚 Referências
     Documentação oficial do MongoDB
