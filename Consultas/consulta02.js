@@ -1,24 +1,65 @@
+// Consulta que lista as porcentagens de energia renovavel
+// para todos os  paises pertencentes a determinado grupo, para todos os grupos
+
 use("clima_energia");
-db.paises.aggregate([
-  { $unwind: "$anos" },
-  { $match: { "anos.ano": 2019 } },
-  { $unwind: "$anos.meses" },
-  { $match: { "anos.meses.mudanca_temp": { $exists: true } } },
-  { $group: {
-      _id: {
-          pais: "$nome",
-          codigo: "$codigo"
-      },
-      Mudanca_total_temp: { $sum: "$anos.meses.mudanca_temp" },
-      unidade: { $first: "$anos.meses.unidade"}
-  }},
-  { $sort: { Mudanca_total_temp: -1 } },
-  { $limit: 10 },
-  { $project: {
-      pais: "$_id.pais",
-      codigo: "$_id.codigo",
-      Mudanca_total_temp: { $divide: ["$Mudanca_total_temp", 100] }, 
-      unidade: 1,
-      _id: 0
-  }}
-]);
+db.grupos.aggregate([
+    {"$lookup": {
+        "from": "paises",
+        "localField": "paises",
+        "foreignField": "_id",
+        "as": "dados_paises"
+    }
+    },
+    {"$unwind": "$dados_paises"},
+    {"$unwind": "$dados_paises.anos"},
+    {"$unwind": "$dados_paises.anos.tipos_energia"},
+    {"$group": {
+        "_id": {
+            "grupo": "$nome",
+            "pais": "$dados_paises.nome",
+            "ano": "$dados_paises.anos.ano"
+        },
+        "total": {"$sum": "$dados_paises.anos.tipos_energia.valor_geracao"},
+        "renovavel": {
+            "$sum": {
+                "$cond": [
+                    {"$eq": ["$dados_paises.anos.tipos_energia.renovavel", true]},
+                    "$dados_paises.anos.tipos_energia.valor_geracao",
+                    0
+                ]
+            }
+        }
+    }
+    },
+    {"$addFields": {
+        "porcentagem": {
+            "$cond": [
+                {"$gt": ["$total", 0]},
+                {"$multiply": [{"$divide": ["$renovavel", "$total"]}, 100]},
+                0
+            ]
+        }
+    }
+    },
+    {"$group": {
+        "_id": {
+            "grupo": "$_id.grupo",
+            "pais": "$_id.pais"
+        },
+        "porcentagem_renovavel": {"$first": "$porcentagem"},
+        "ano": {"$first": "$_id.ano"}
+    }
+    },
+    {"$group": {
+        "_id": "$_id.grupo",
+        "paises": {
+            "$push": {
+                "nome": "$_id.pais",
+                "porcentagem": {"$round": ["$porcentagem_renovavel", 2]},
+                "ano": "$ano"
+            }
+        }
+    }
+    },
+    {"$sort": {"_id": 1}}
+])
